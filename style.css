@@ -1,0 +1,141 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#start{
+    display: flex;
+    gap: 30px;
+}
+
+#start h1{
+    color: #1e0e62;
+}
+
+#middle{
+    padding-top: 25px;
+}
+
+
+#end{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.text1{
+    text-decoration: none;
+    color: #a1a1b0;
+
+
+}
+
+#text2{
+    width: 770px;
+    height: 219.8px;
+    position: relative;
+    top:845px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    
+    
+
+}
+#text2 h1{
+    font-family: DM sans;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+    bottom: 770px;
+    color: #1e0e62;
+  
+
+}
+
+@media only screen and (max-width: 768px) {
+    #text2{
+        width: 770px;
+        height: 219.8px;
+        position: relative;
+        top: 900px;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 180px;
+        
+        
+    
+    }
+  }
+
+
+#text2 p{
+    font-family: Dm Sans;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    align-items: center;
+ 
+}
+#button1{
+    margin-top: 10%;
+    
+    
+}
+.button3{
+    display: inline-block;
+   
+    padding: 8px 18px;
+    border-radius: 30px;
+}
+
+.button2{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 60px;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+   
+  
+    cursor: pointer;
+}
+input{
+    border-radius: 20px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sig{
+   
+    font-size: 14px;
+    
+}
+.sig1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
